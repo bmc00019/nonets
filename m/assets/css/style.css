@@ -1,0 +1,244 @@
+/**
+ * Parallax Scrolling Tutorial
+ * For NetTuts+
+ *  
+ * Author: Mohiuddin Parekh
+ *	http://www.mohi.me
+ * 	@mohiuddinparekh   
+ */
+@font-face {
+	font-family: 'TradeGothic Bold CondEighteen';
+	src: url('../fonts/TradeGothic/TradeGothic-BoldCondTwenty.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/TradeGothic/TradeGothic-BoldCondTwenty.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('../fonts/TradeGothic/TradeGothic-BoldCondTwenty.woff') format('woff'), /* Modern Browsers */
+		url('../fonts/TradeGothic/TradeGothic-BoldCondTwenty.ttf')  format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/TradeGothic/TradeGothic-BoldCondTwenty.svg#410795b1606b847c744029f7bbd0c194') format('svg'); /* Legacy iOS */
+	font-style:   normal;
+	font-weight:  700;
+}
+
+@font-face {
+	font-family: 'TradeGothic CondEighteen';
+	src: url('../fonts/TradeGothic/TradeGothic-CondEighteen.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/TradeGothic/TradeGothic-CondEighteen.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('../fonts/TradeGothic/TradeGothic-CondEighteen.woff') format('woff'), /* Modern Browsers */
+		url('../fonts/TradeGothic/TradeGothic-CondEighteen.ttf')  format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/TradeGothic/TradeGothic-CondEighteen.svg#2f81282b06b2e034ef5618b6fa5d4b36') format('svg'); /* Legacy iOS */
+	font-style:   normal;
+	font-weight:  400;
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+}
+header #lockup {
+	position: relative;
+	padding: 15px 0 15px 0;
+}
+header #lockup h1 {
+  	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "TradeGothic Bold CondEighteen", sans-serif;
+	background: black;
+	color: white;
+	font-size: 3.2em;
+	width: 200px;
+	padding: 6px 0 0 0;
+}
+header #lockup h2 {
+	font-family: "TradeGothic CondEighteen", sans-serif;
+	color: black;
+	font-size: 1.1em;
+	position: relative;
+	width: 230px;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+	text-align: center;
+}
+header #lockup h2 #left {
+	position: absolute;
+	left: 35px;
+	top: 19px;
+	width: 13px;
+	height: 1px;
+}
+header #lockup h2 #right {
+  position: absolute;
+  right: 35px;
+  top: 19px;
+  width: 13px;
+  height: 1px;
+}
+header #lockup .cta-subscribe {
+	font-family: "TradeGothic CondEighteen", sans-serif;
+	display: block;
+	font-size: 1em;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	background: #d30a1c;
+		padding: 9px 8px 6px;
+		margin: 30px auto 0;
+		width: 145px;
+}
+
+#main_background {
+	background: url(../images/landing_bg1.jpg) 50% 0 no-repeat fixed; 
+	min-height: 2000px;
+}
+#home { 
+	/*background: url(../images/landing_bg.jpg) 50% 0 no-repeat fixed; */
+	background-color: rbga(255, 102, 0, 0.4);
+	height: 600px;  
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    /*box-shadow: 0 0 50px rgba(0,0,0,0.8);*/
+}
+#bottom { 
+	/*background: transparent;*/
+	/*background: url(../images/landing_bg.jpg) 50% 0 no-repeat fixed; */
+	height: 1000px;
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+}
+
+#video_container_outer {
+	width: 900px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	padding: 170px 0 0 0;
+	z-index: 40;
+}
+#video_container_outer #video_container {
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	position: relative;
+	padding-top: 56.25%;
+	z-index: 25;
+}
+#video_container_outer #video_container iframe {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#socials {
+	position: fixed;
+	z-index: 25;
+	width: 100%;
+	margin: 0 auto;
+	top: 700px;
+}
+#socials ul {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#socials ul li {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0;
+  vertical-align: top;
+}
+@media only screen and (max-width: 420px) {
+	#socials ul li {
+    margin: 0 8px;
+  }
+}
+#socials ul li:first-child {
+  width: 49px !important;
+  overflow: hidden;
+  margin: 0 15px 0 0 !important;
+}
+@media only screen and (max-width: 420px) {
+	#socials ul li:first-child {
+    margin: 0 8px 0 0 !important;
+  }
+}
+	#socials ul li:last-child {
+  margin: 0 0 0 15px !important;
+}
+@media only screen and (max-width: 420px) {
+	#socials ul li:last-child {
+    margin: 0 0 0 8px !important;
+  }
+}
+
+#watch {
+  padding: 0 0 0 0;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 305px;
+  z-index: 25;
+  font-family: "TradeGothic Bold CondEighteen", sans-serif;
+  color: black;
+  letter-spacing: .1em;
+  font-size: 2.4em;
+}
+#watch #play-video #play-icon {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	top: 9px;
+	left: 0;
+}
+#watch #play-video a {
+	cursor: pointer;
+	position: relative;
+	color: black !important;
+	text-decoration: none !important;
+}
+@media only screen and (max-width: 480px) {
+	#watch {
+    display: none;
+  }
+}
+/* Introduction */
+
+/*#home article { background: url("../images/intro.png") no-repeat scroll center top transparent; height: 458px; position: absolute; text-indent: -9999px; top: 291px; width: 100%; }*/
+
+#bottom article { 
+	/*background: url("../images/parallax.png") no-repeat scroll center top transparent; */
+	height: 100%;
+	position: absolute; 
+	text-indent: -9999px; 
+	top: 393px; 
+	width: 100%; }
+
+
+@media only screen and (max-width: 900px) {
+	#video_container_outer {
+		width: 100%;
+	}
+}
+
+#overlay {
+	position: fixed;
+	width:100%;
+	height:100%;
+	background: black;
+	opacity: 0;
+}
