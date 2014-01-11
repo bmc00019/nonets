@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,500);
 /* Begin Normalize Styling*/
 * {
   -moz-box-sizing: border-box;
@@ -273,6 +274,16 @@ td {
   font-weight: 400;
 }
 
+@font-face {
+  font-family: 'NeutraText-Light';
+  src: url("../fonts/NeutraText/neutratext-light.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/NeutraText/neutratext-light.eot?#iefix") format("embedded-opentype"), url("../fonts/NeutraText/neutratext-light.woff") format("woff"), url("../fonts/NeutraText/neutratext-light.ttf") format("truetype"), url("../fonts/NeutraText/neutratext-light.svg") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 300;
+}
+
 /*
 	START LANDING PAGE
 */
@@ -297,41 +308,34 @@ header {
 }
 header #lockup {
   position: relative;
-  padding: 15px 0 15px 0;
+  padding: 2em;
+  width: 460px;
+  margin: 0 auto;
+  background: rgba(51, 63, 69, 0.9);
 }
 header #lockup h1 {
   position: relative;
   margin: 0 auto;
   text-align: center;
-  font-family: "TradeGothic Bold CondEighteen", sans-serif;
-  font-size: 3em;
-  width: 222px;
-  height: 62px;
-}
-header #lockup h1 div {
-  left: 0;
-  width: 222px;
-  height: 62px;
-  padding: 6px 0 0 0;
-  line-height: 1.2em;
-  position: absolute;
-}
-header #lockup h1 #white-on-black {
-  background: black;
+  font-family: "NeutraText-Light", sans-serif;
+  font-size: 5.3em;
+  line-height: 0.9em;
   color: white;
-}
-header #lockup h1 #black-on-white {
-  background: white;
-  color: black;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 header #lockup h2 {
-  width: 230px;
-  height: 30px;
+  font-family: "NeutraText-Light", sans-serif;
+  color: #a7a8a8;
+  text-align: center;
   margin: 0 auto;
   position: relative;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: normal;
 }
 header #lockup h2 div {
-  font-family: "TradeGothic CondEighteen", sans-serif;
+  font-family: "NeutraText-Light", sans-serif;
   font-size: 0.7em;
   position: absolute;
   top: 0;
@@ -360,37 +364,30 @@ header #lockup h2 #date-white {
   color: white;
   opacity: 0;
 }
-header #lockup .cta-subscribe {
-  font-family: "TradeGothic CondEighteen", sans-serif;
+header #lockup .listen-buy {
+  font-family: "NeutraText-Light", sans-serif;
+  color: white;
+  text-transform: uppercase;
   display: inline-block;
   font-size: 1em;
   text-decoration: none;
   text-align: center;
-  background: transparent;
   padding: 0;
-  margin: 18px auto 0;
-  width: 200px;
+  margin: 20px auto 0;
   position: relative;
 }
-header #lockup .cta-subscribe span {
-  position: absolute;
-  left: 10px;
-  top: 5px;
+header #lockup .listen-buy .copy {
+  position: relative;
+  top: 3px;
 }
-header #lockup .cta-subscribe #sub_on_black {
-  color: black;
+header #lockup .listen-buy .icon {
+  padding: 0 3px;
 }
-header #lockup .cta-subscribe #sub_on_white {
-  color: white;
-  opacity: 0;
+header #lockup .listen-buy .icon img {
+  width: 24px;
 }
-header #lockup .cta-subscribe #yt_button_container {
-  overflow: visible;
-  width: 88px;
-  height: 24px;
-  position: absolute;
-  right: 10px;
-  top: 0;
+header #lockup .listen-buy #rdio img {
+  width: 26px;
 }
 
 #spacer {
@@ -503,12 +500,13 @@ header #lockup .cta-subscribe #yt_button_container {
   width: 100%;
   text-align: center;
   position: fixed;
-  top: 300px;
+  top: 360px;
   z-index: 25;
-  font-family: "TradeGothic Bold CondEighteen", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, sans-serif;
+  text-transform: uppercase;
   color: black;
   letter-spacing: .1em;
-  font-size: 2.4em;
+  font-size: 1em;
 }
 #watch #play-video #play-icon {
   width: 40px;
@@ -521,9 +519,6 @@ header #lockup .cta-subscribe #yt_button_container {
 #watch #play-video a {
   cursor: pointer;
   position: relative;
-  color: black !important;
+  color: #464646 !important;
   text-decoration: none !important;
 }
-
-/* Introduction */
-/*#home article { background: url("../images/intro.png") no-repeat scroll center top transparent; height: 458px; position: absolute; text-indent: -9999px; top: 291px; width: 100%; }*/

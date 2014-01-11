@@ -2,7 +2,10 @@
   font-family: 'TradeGothic Bold CondEighteen';
   src: url("../fonts/TradeGothic/TradeGothic-BoldCondTwenty.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/TradeGothic/TradeGothic-BoldCondTwenty.eot?#iefix") format("embedded-opentype"), url("../fonts/TradeGothic/TradeGothic-BoldCondTwenty.woff") format("woff"), url("../fonts/TradeGothic/TradeGothic-BoldCondTwenty.ttf") format("truetype"), url("../fonts/TradeGothic/TradeGothic-BoldCondTwenty.svg#410795b1606b847c744029f7bbd0c194") format("svg");
+  src: url("../fonts/TradeGothic/TradeGothic-BoldCondTwenty.eot?#iefix") format("embedded-opentype"), 
+  url("../fonts/TradeGothic/TradeGothic-BoldCondTwenty.woff") format("woff"), 
+  url("../fonts/TradeGothic/TradeGothic-BoldCondTwenty.ttf") format("truetype"), 
+  url("../fonts/TradeGothic/TradeGothic-BoldCondTwenty.svg#410795b1606b847c744029f7bbd0c194") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 700;
@@ -12,8 +15,24 @@
   font-family: 'TradeGothic CondEighteen';
   src: url("../fonts/TradeGothic/TradeGothic-CondEighteen.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/TradeGothic/TradeGothic-CondEighteen.eot?#iefix") format("embedded-opentype"), url("../fonts/TradeGothic/TradeGothic-CondEighteen.woff") format("woff"), url("../fonts/TradeGothic/TradeGothic-CondEighteen.ttf") format("truetype"), url("../fonts/TradeGothic/TradeGothic-CondEighteen.svg#2f81282b06b2e034ef5618b6fa5d4b36") format("svg");
+  src: url("../fonts/TradeGothic/TradeGothic-CondEighteen.eot?#iefix") format("embedded-opentype"), 
+  url("../fonts/TradeGothic/TradeGothic-CondEighteen.woff") format("woff"), 
+  url("../fonts/TradeGothic/TradeGothic-CondEighteen.ttf") format("truetype"), 
+  url("../fonts/TradeGothic/TradeGothic-CondEighteen.svg#2f81282b06b2e034ef5618b6fa5d4b36") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 400;
+}
+
+@font-face {
+  font-family: 'NeutraText-Light';
+  src: url("../fonts/NeutraText/neutratext-light.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/NeutraText/neutratext-light.eot?#iefix") format("embedded-opentype"), 
+  url("../fonts/NeutraText/neutratext-light.woff") format("woff"), 
+  url("../fonts/NeutraText/neutratext-light.ttf") format("truetype"), 
+  url("../fonts/NeutraText/neutratext-light.svg") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 300;
 }

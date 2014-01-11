@@ -14,7 +14,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/mobile_redirect.js"></script>
 <script type="text/javascript" src="assets/js/modernizr.js"></script>
-<link rel="stylesheet" href="assets/css/main_desktop_1227.css">
+<link rel="stylesheet" href="assets/css/main.css">
 
 <meta name="description" content="VICE NEWS is an international news channel created by and for a connected generation. Our documentaries and original news series bring you an unvarnished look at some of the most important events of our time, and shine a light on underreported stories around the globe. Unorthodox and at times irreverent, we get to the heart of the matter and call it like we see it." />
 <meta name="keywords" content="online video documentaries" />
@@ -51,31 +51,33 @@
 <header>
 	<div id="lockup">
 		<h1>
-			<div id="black-on-white">VICE NEWS</div>
-			<div id="white-on-black">VICE NEWS</div>
+			<!-- <img src="assets/images/no_nets_text.png" alt="NO NETS"> -->
+			No Nets
 
 		</h1>
 		<h2>
-			<div id="date-black">
-				<img id="left" src="assets/images/horiz.png" alt="">COMING 2014 <img id="right" src="assets/images/horiz.png" alt="">
-			</div>
-			<div id="date-white">
-				<img id="left" src="assets/images/horiz-white.png" alt="">COMING 2014 <img id="right" src="assets/images/horiz-white.png" alt="">
-			</div>
+			Affable &amp; Ready for Small Talk
 			
 		</h2>
-				<div class="cta-subscribe">
-					<span id="sub_on_white">SUBSCRIBE ON</span>
-					<span id="sub_on_black">SUBSCRIBE ON</span>
-					&nbsp;
-					<div id="yt_button_container">
-						<div class="g-ytsubscribe" data-channelid="UCZaT_X_mc0BI-djXOlfhqWQ" data-layout="default" data-count="hidden"></div>
-					</div>
-				</div>	
+		<div class="listen-buy">
+			<span class="copy">Listen / buy the record:</span> 
+
+			<span class="icon"><a href="" target="_blank"><img src="assets/images/no_nets_spotify.png"></a></span>
+			<span class="icon" id="rdio"><a href="" target="_blank"><img src="assets/images/no_nets_rdio.png"></a></span>
+			<span class="icon"><a href="" target="_blank"><img src="assets/images/no_nets_itunes.png"></a></span>
+			<span class="icon"><a href="" target="_blank"><img src="assets/images/no_nets_bandcamp.png"></a></span>
+
+			<!-- image links here -->
+		</div>	
 	</div>
 </header>
 	<div id="watch" >
-		<span id="play-video"><a href="#content">WATCH THE TRAILER&nbsp; <img id="play-icon" src="assets/images/play_whiteonblack.png" alt=""></a></span>
+		<span id="play-video">
+			<a href="#content">
+				<img id="play-icon" src="assets/images/no_nets_play.png" alt="Play">
+				Watch the <strong>California Weather</strong> video
+			</a>
+		</span>
 	</div>
 <!-- <div id="main_background"> -->
 			<div id="spacer" data-speed="16" data-type="background">
