@@ -91,7 +91,8 @@
 					</div>
 				</div>
 				<div id="socials">
-					<ul>
+					contact or something...
+					<!-- <ul>
 						<li>
 							<div class="fb-like" data-width="60px" data-href="https://www.facebook.com/vicenews" data-layout="button_count" data-colorscheme="dark" data-action="like" data-show-faces="false" data-share="false" ></div>
 						</li>
@@ -105,7 +106,7 @@
 							<div class="g-follow" data-annotation="none" data-height="20" data-href="https://plus.google.com/u/1/b/106872472930730227853" data-rel="publisher"></div>
 
 						</li>
-					</ul>
+					</ul> -->
 				</div>
 			</div> <!-- content -->
 <!-- </div> --> <!-- main_background -->

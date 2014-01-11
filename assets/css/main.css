@@ -479,6 +479,9 @@ header #lockup .listen-buy #rdio img {
   bottom: 0px;
   padding: 13px 0 8px;
   background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: white;
+  font-family: "NeutraText-Light", sans-serif;
 }
 #socials ul {
   width: 100%;
