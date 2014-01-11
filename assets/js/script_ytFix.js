@@ -33,25 +33,11 @@ function onPlayerReady() {
 
 	$spacer = $('#spacer');
 	
-	$login_click = $('#login_click'); $reg = $('#reg'); $log = $('#log')
-
 	var window_height = $(window).height();
 	var initial_cont_height = window_height;
 
-	// scroll to top of page
-		// $('html').animate({scrollTop:0}, 1);
- //    $('body').animate({scrollTop:0}, 1);
-
 	$content.height(window_height);
 
-	// show username/password if someone clicks 'login' on the Register form
-	$login_click.click( function(e) {
-		e.preventDefault();
-		$reg.hide();
-		$log.show();
-	});
-
-	
 	$overlay = $('#overlay');
 	$play = $('#play-video');
 	var eTop = $content.offset().top;
@@ -89,28 +75,29 @@ function onPlayerReady() {
 
 			}
 
-			// console.log(stopScroll);
+			console.log(stopScroll);
 
-			var headerPos = (stopScroll *3);
-			var headerPos = (headerPos / 100);
-
-			// console.log("Header Pos: " + headerPos);
+			var headerPos = (1000 - stopScroll);
+			var headerPos = (headerPos / 10);
+			var headerPos = (80 - headerPos);
+			// var headerPos = (headerPos / 100);
 
 			$('header').css({
 				"top" : headerPos + "px"
 			});
 
-			$('#reg_unit').css({
-				"top" : 190 + headerPos
-			});
-			
 			var opac = (stopScroll / 1000);
+			// steps for doing the #watch
+			var step1 = (1000 - stopScroll);
+			var step2 = (step1 / 10);
+			var step3 = (335 - step2);
 
-			$('#reg_unit').css({
+			$('#watch').css({
+				"top" : step3,
 				"opacity" : opac
 			});
 
-			$('#lockup_bg').css({
+			$('#lockup-bg').css({
 				"opacity" : opac
 			});
 
@@ -119,24 +106,6 @@ function onPlayerReady() {
 			var rev2 = (rev1 * 0.001);
 			var rev3 = (1 - rev2);
 
-			$('#white-on-black').css({
-				"opacity" : rev3
-			});
-			$('#date-black').css({
-				"opacity" : rev3
-			});
-			$('#sub_on_black').css({
-				"opacity" : rev3
-			});
-			$('#black-on-white').css({
-				"opacity" : rev2
-			});
-			$('#date-white').css({
-				"opacity" : rev2
-			});
-			$('#sub_on_white').css({
-				"opacity" : rev2
-			});
 			$overlay.css({
 				"opacity" : rev2
 			});

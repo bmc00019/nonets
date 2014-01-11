@@ -50,6 +50,7 @@
 <div id="overlay"></div>
 <header>
 	<div id="lockup">
+		<div id="lockup-bg"></div>
 		<h1>
 			<!-- <img src="assets/images/no_nets_text.png" alt="NO NETS"> -->
 			No Nets
@@ -111,7 +112,7 @@
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="//www.google.com/jsapi" type="text/javascript"></script>
-<script type="text/javascript" src="assets/js/script_desktop_1227_v2.js"></script>
+<script type="text/javascript" src="assets/js/script_ytFix.js"></script>
 <!-- analytics -->
  <script>
  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

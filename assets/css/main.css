@@ -301,7 +301,7 @@ html, body {
 
 header {
   position: fixed;
-  top: 100px;
+  top: 80px;
   width: 100%;
   text-align: center;
   z-index: 100;
@@ -311,6 +311,13 @@ header #lockup {
   padding: 2em;
   width: 460px;
   margin: 0 auto;
+}
+header #lockup #lockup-bg {
+  position: absolute;
+  width: 460px;
+  height: 209px;
+  top: 0;
+  left: 0;
   background: rgba(51, 63, 69, 0.9);
 }
 header #lockup h1 {
@@ -365,11 +372,12 @@ header #lockup h2 #date-white {
   opacity: 0;
 }
 header #lockup .listen-buy {
-  font-family: "NeutraText-Light", sans-serif;
+  font-family: "Helvetica Neau", "Helvetica", Helvetica, sans-serif;
   color: white;
+  font-weight: 300;
   text-transform: uppercase;
   display: inline-block;
-  font-size: 1em;
+  font-size: 0.8em;
   text-decoration: none;
   text-align: center;
   padding: 0;
@@ -394,7 +402,7 @@ header #lockup .listen-buy #rdio img {
   width: 100%;
   height: 1000px;
   display: block;
-  background: url(../images/landing_bg3.jpg) 50% 0 no-repeat fixed;
+  background: url(../images/bg_image.jpg) 50% 0 no-repeat fixed;
 }
 
 #content {
@@ -500,7 +508,7 @@ header #lockup .listen-buy #rdio img {
   width: 100%;
   text-align: center;
   position: fixed;
-  top: 360px;
+  top: 335px;
   z-index: 25;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, sans-serif;
   text-transform: uppercase;
