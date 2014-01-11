@@ -7,8 +7,8 @@
 <html class="no-js" lang="en">
 <head>
 <meta charset="utf-8">
-<title>VICE NEWS | COMING 2014 | TRAILER</title>
-<link rel="shortcut icon" href="assets/images/favicon_vicenews.png" />
+<title>NO NETS</title>
+<link rel="shortcut icon" href="assets/images/" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -16,33 +16,33 @@
 <script type="text/javascript" src="assets/js/modernizr.js"></script>
 <link rel="stylesheet" href="assets/css/main.css">
 
-<meta name="description" content="VICE NEWS is an international news channel created by and for a connected generation. Our documentaries and original news series bring you an unvarnished look at some of the most important events of our time, and shine a light on underreported stories around the globe. Unorthodox and at times irreverent, we get to the heart of the matter and call it like we see it." />
-<meta name="keywords" content="online video documentaries" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
 
-<meta property="og:title" content="VICE NEWS | COMING 2014 | TRAILER"/>
-<meta property="og:url" content="http://news.vice.com" />
-<meta property="og:image" content="https://s3.amazonaws.com/vice_asset_uploader/files/1388170088vice_news_logo_stacked.png" />
-<meta property="og:site_name" content="VICE NEWS | COMING 2014" />
-<meta property="og:description" content="VICE NEWS is an international news channel created by and for a connected generation. Our documentaries and original news series bring you an unvarnished look at some of the most important events of our time, and shine a light on underreported stories around the globe. Unorthodox and at times irreverent, we get to the heart of the matter and call it like we see it.">
-<meta name="thumbnail" content="https://s3.amazonaws.com/vice_asset_uploader/files/1388170088vice_news_logo_stacked.png" />
+<meta property="og:title" content=""/>
+<meta property="og:url" content="" />
+<meta property="og:image" content="" />
+<meta property="og:site_name" content="" />
+<meta property="og:description" content="">
+<meta name="thumbnail" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:video" content="http://www.youtube.com/v/uMtz1xobvn4" />
-<meta property="og:video:secure_url" content="https://www.youtube.com/v/uMtz1xobvn4" />
-<meta property="og:video:height" content="236" />
-<meta property="og:video:width" content="420" />
+<meta property="og:video" content="" />
+<meta property="og:video:secure_url" content="" />
+<meta property="og:video:height" content="" />
+<meta property="og:video:width" content="" />
 
-<meta name="twitter:title" content="VICE NEWS | COMING 2014 | TRAILER"/>
-<meta name="twitter:description" content="VICE NEWS | COMING 2014 | TRAILER" />
-<meta name="twitter:image" content="https://s3.amazonaws.com/vice_asset_uploader/files/1388170088vice_news_logo_stacked.png" />
-<meta name="twitter:site" content="@vice" />
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="" />
+<meta name="twitter:site" content="@whatever" />
 <meta name="twitter:card" content="player" />
-<meta name="twitter:player" content="https://www.youtube.com/v/uMtz1xobvn4" />
+<meta name="twitter:player" content="https://www.youtube.com/idhere" />
 <meta name="twitter:player:height" content="236" />
 <meta name="twitter:player:width" content="420" />
 
-<meta itemprop="name" content="VICE NEWS | COMING 2014 | TRAILER">
-<meta itemprop="description" content="VICE NEWS is an international news channel created by and for a connected generation. Our documentaries and original news series bring you an unvarnished look at some of the most important events of our time, and shine a light on underreported stories around the globe. Unorthodox and at times irreverent, we get to the heart of the matter and call it like we see it.">
-<meta itemprop="image" content="https://s3.amazonaws.com/vice_asset_uploader/files/1388170088vice_news_logo_stacked.png">
+<meta itemprop="name" content="">
+<meta itemprop="description" content="">
+<meta itemprop="image" content="">
 
 </head>
 
